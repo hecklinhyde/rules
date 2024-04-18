@@ -815,9 +815,9 @@
 - macro: user_known_contact_k8s_api_server_activities
   condition: (never_true)
 
-- rule: Contact K8S API Server From Container
+- rule: Contact K8s API Server From Container
   desc: >
-    Detect attempts to communicate with the K8S API Server from a container by non-profiled users. Kubernetes APIs play a 
+    Detect attempts to communicate with the K8s API Server from a container by non-profiled users. Kubernetes APIs play a 
     pivotal role in configuring the cluster management lifecycle. Detecting potential unauthorized access to the API server 
     is of utmost importance. Audit your complete infrastructure and pinpoint any potential machines from which the API server 
     might be accessible based on your network layout. If Falco can't operate on all these machines, consider analyzing the 
